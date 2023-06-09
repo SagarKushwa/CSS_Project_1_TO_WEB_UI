@@ -1,0 +1,243 @@
+.header
+{
+    padding-left: 120px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+.container
+{
+    background-color: rgb(235, 229, 229);
+}
+
+.addtask{
+    padding-top: 40px;
+    padding-right: 240px;
+    text-align: end;
+    align-items: center;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+.addbtn
+{
+    width: 40px;
+    color: aliceblue;
+    background-color: rgb(12, 172, 236);
+    border:none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.container1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[type="checkbox"]
+{
+    vertical-align: -4px;
+}
+
+.box
+{
+    height: 300px; 
+    width: 330px;
+    background-color: white;
+    color: gray;
+    border: none;
+    border-radius: 10px;
+}
+
+.box:hover
+{
+    box-shadow: 0px 2px 2px 3px rgb(205, 202, 202), 2px 0px 2px 3px rgb(205, 202, 202);
+    cursor:pointer;
+}
+
+.box1
+{
+    margin-top: 40px;
+    margin-left: 230px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.box2
+{
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    margin-right: 15px;
+}
+
+.box3
+{
+    margin-top: 40px;
+    margin-bottom: 18px;
+    margin-left: 5px;
+}
+
+.box4
+{
+    margin-left: 230px;
+    margin-bottom: 150px;
+    margin-right: 5px;
+}
+
+.box5
+{
+    margin-left: 15px;
+    margin-bottom: 150px;
+}
+
+.line
+{
+    text-decoration: line-through;
+    color: rgb(215, 201, 201);
+
+}
+
+.checkbox1
+{
+    height: 19px;
+    width: 19px;
+}
+
+/* CSS Code for "index1.html" */
+
+.position
+{
+    display: flex;
+}
+
+.blur
+{
+    filter: brightness(40%);
+    opacity: 1px;
+}
+
+.newtask
+{
+    position: absolute;
+    top: 260px;
+    left: 540px;
+    height: 250px;
+    width: 435px;
+    background-color: rgb(254, 252, 252);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 3px rgb(205, 202, 202), 2px 0px 2px 3px rgb(180, 177, 177);
+
+}
+
+.cross  
+{
+    position: absolute;
+    top: 0px;
+    left: 380px;
+}
+
+.input
+{
+   height: 20px;
+   width: 400px;
+   border-color: rgb(173, 170, 170);
+   border-style: solid;
+   background-color: rgb(251, 244, 244);
+}
+
+.newtaskbtn
+{
+    height: 35px;
+    width: 120px;
+    background-color: rgb(12, 172, 236);
+    border: none;
+    border-radius: 7px;
+    margin-top: 28px;
+    margin-left: 255px;
+    color: white;
+    cursor: pointer;
+}
+
+.hyperlink
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CSS Code for "index2.html" */
+
+.header1
+{
+    padding-left: 120px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.newbody
+{
+    height: 600px;
+    width: 1525px;
+    background-color: rgb(199, 192, 192);
+}
+
+.backbtn
+{
+    width: 40px;
+    color: aliceblue;
+    background-color: rgb(69, 67, 67);
+    border:none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+/* CSS Code for "index3.html" */
+
+.back{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    text-decoration: none;
+}
+
+.new{
+    position: absolute;
+    top: 120px;
+    left: 735px;
+}
+
+.newbox
+{
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    height: 250px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 3px rgb(205, 202, 202), 2px 0px 2px 3px rgb(180, 177, 177);
+    cursor: pointer;
+}
+
+.newbox1
+{
+    border: none;
+    padding-left: 15px;
+}
+
+.newtask1
+{
+    position: absolute;
+    top: 190px;
+    left: 500px;
+    height: 220px;
+    width: 435px;
+    background-color: rgb(254, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 3px rgb(205, 202, 202), 2px 0px 2px 3px rgb(180, 177, 177);
+}

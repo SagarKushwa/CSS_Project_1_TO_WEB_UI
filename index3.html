@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New item</title>
+    <link rel="stylesheet" href="./mystyle.css">
+</head>
+<body>
+    <div class="blur">
+        <div class="header1">
+            <h1>Task <span style="color:blue;"> List</span></h1>
+        </div>
+        <div class="newbody">
+            <div class="back">     <!-- &larr; is for left direction arrow -->
+                <a href="./index.html" class="hyperlink">
+                   <h3><button class="backbtn">&larr;</button> Back</h3>
+                </a>
+            </div>
+            <div class="new">
+                <a href="./index3.html" class="hyperlink">
+                   <h3><button class="addbtn">+</button> Add New Task</h3>
+                </a>
+            </div>
+            <div class="newbox">
+                <h2 style="color: rgb(12, 172, 236); text-align: center;">Trip to paris</h2>
+                <hr>
+                <div class="newbox1">
+                   <input type="checkbox" id="check1" class="checkbox1" name="check" value="Visit Church" checked disabled>
+                   <label for="check1"><span class="line">Visit Church</span></label>
+                   <br><br>
+                   <input type="checkbox" id="check2" class="checkbox1" name="check" value="Shopping">
+                   <label for="check2">Shopping</label>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+       <!-- .....Blur code ends here..... --> 
+       <!-- .....Main code Starts from here..... -->
+
+
+    <div class="newtask1">
+        <h2 style="padding-left: 20px; color: rgb(78, 76, 76);">Add New Item</h2>
+        <div class="cross">
+            <a href="./index2.html">
+                <h2 style="color: rgb(160, 155, 155); font-size: 20px;">&#9587;</h2>
+            </a>
+        </div>
+        <hr>
+        <br>
+        <div class="newbox1">
+           <input type="text" placeholder="Visit Famous Places" class="input">
+           <div class="newtaskbtn" style="text-align: center; display: table;">
+              <h3>+ Add Item</h3>
+           </div>
+        </div>
+    </div>  
+</body>
+</html>
